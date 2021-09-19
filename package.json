@@ -4,6 +4,7 @@
   "description": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.17.1",
     "pg": "^8.7.1"
   },
   "devDependencies": {},

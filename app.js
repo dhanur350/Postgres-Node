@@ -1,12 +1,13 @@
-console.log("Hello")
-const { Client } = require('pg')
-const { mainModule } = require('process')
-async function main() 
-{
-    const client = new Client({user:"dhanur",password:"turbo",database:"stock"})
-    await client.connect()
-    const res = await client.query('SELECT $1::text as message', ['Hello world!'])
-    console.log(res.rows[0].message) // Hello world!
-    await client.end()
-}
-main()
+const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+app.get('/dhanur', (req, res) => {
+  res.send('Hello Dhanur')
+})
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
