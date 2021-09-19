@@ -1,0 +1,24 @@
+{
+  "name": "Postgres-Node",
+  "version": "1.0.0",
+  "description": "https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet",
+  "main": "app.js",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanur350/Postgres-Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanur350/Postgres-Node/issues"
+  },
+  "homepage": "https://github.com/dhanur350/Postgres-Node#readme"
+}
